@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arsam Hamidi Far</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Cormorant+Garamond:ital@1&display=swap');
+
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  html,body{ height:100%; }
+  body{
+    background:
+      radial-gradient(ellipse at top left, #2a2a35 0%, transparent 55%),
+      radial-gradient(ellipse at bottom right, #1f2230 0%, transparent 55%),
+      linear-gradient(160deg, #14151c 0%, #1c1e29 50%, #14151c 100%);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:24px;
+    overflow:hidden;
+    position:relative;
+  }
+
+  body::before{
+    content:"";
+    position:absolute; inset:0;
+    background-image:
+      radial-gradient(1px 1px at 20% 30%, rgba(255,255,255,0.25), transparent),
+      radial-gradient(1px 1px at 70% 65%, rgba(255,255,255,0.18), transparent),
+      radial-gradient(1.5px 1.5px at 85% 20%, rgba(255,255,255,0.2), transparent),
+      radial-gradient(1px 1px at 40% 80%, rgba(255,255,255,0.15), transparent),
+      radial-gradient(1px 1px at 55% 15%, rgba(255,255,255,0.2), transparent);
+    pointer-events:none;
+  }
+
+  .content{ position:relative; z-index:1; }
+
+  .name{
+    font-family:'Cormorant Garamond', Georgia, serif;
+    font-weight:500;
+    font-size:clamp(2.4rem, 7vw, 4.6rem);
+    color:#f3efe6;
+    letter-spacing:0.04em;
+    line-height:1.1;
+  }
+
+  .rule{
+    width:70px; height:1px;
+    background:rgba(243,239,230,0.4);
+    margin:28px auto;
+  }
+
+  .tagline{
+    font-family:'Cormorant Garamond', Georgia, serif;
+    font-style:italic;
+    font-weight:400;
+    font-size:clamp(1.15rem, 2.6vw, 1.6rem);
+    color:rgba(243,239,230,0.75);
+    letter-spacing:0.08em;
+  }
+</style>
+</head>
+<body>
+
+  <div class="content">
+    <div class="name">Arsam Hamidi Far</div>
+    <div class="rule"></div>
+    <div class="tagline">Coming Soon (My Academic Achievements)</div>
+  </div>
+
+</body>
+</html>
